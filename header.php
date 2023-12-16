@@ -1,87 +1,37 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
-
-<head>
-
-  <title>JobzShala</title>
-
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
-  <!-- Font -->
-  <link rel="stylesheet" href="fonts/fonts.css" />
-
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="stylesheets/bootstrap.min.css" />
-  <link rel="stylesheet" href="stylesheets/boostrap-select.min.css" />
-  
-  <!-- swiper slider -->
-  <link rel="stylesheet" href="stylesheets/swiper-bundle.min.css" />
-
-  <!-- Mobile Specific Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-  <!-- Theme Style -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/shortcodes.css" />
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
-  <!-- Colors -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
-  
-  <!-- Favicon and Touch Icons  -->
-  <link rel="shortcut icon" href="images/favicon1.png">
-  <link rel="apple-touch-icon-precomposed" href="images/favicon1.png">
-
-  <!-- Responsive -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/responsive.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-</head>
-
-<body>
-  <a id="scroll-top"></a>
-
-  <!-- preloade -->
-  <div class="preload preload-container">
-    <div class="preload-logo">
-      <div class="spinner"></div>
-    </div>
-  </div>
-  <!-- /preload -->
-  <!-- popup nav menu-mobile-->
-  <div class="menu-mobile-popup">
+<div class="menu-mobile-popup">
     <div class="modal-menu__backdrop"></div>
     <div class="widget-filter">
 
 
       <div class="mobile-header">
         <div id="logo" class="logo">
-          <a href="home-01.html">
-            <img class="site-logo" src="images/logo.png" alt="Image" />
+          <a href="#">
+            <img class="site-logo"  src="images/logo.png" alt="Image" />
           </a>
         </div>
-        <a class="title-button-group"><i class="icon-close"></i></a>
+      <a class="title-button-group"><i class="icon-close"></i></a>
 
       </div>
 
       <div class="tf-tab">
-        <div class="menu-tab">
-          <div class="user-tag active">Menu</div>
-          <div class="user-tag">Categories</div>
-        </div>
-
-        <div class="content-tab">
-
-          <div class="header-ct-center menu-moblie">
-            <div class="nav-wrap">
-              <nav class="main-nav mobile">
-                <ul id="menu-primary-menu" class="menu">
-                  <li class="menu-item menu-item-has-children-mobile">
-                    <a class="iteam-menu">Home</a>
-                    <ul class="sub-menu-mobile">
-                      <li class="menu-item menu-item-mobile">
-                        <a href="home-01.html">Home Page 01 </a>
-                      </li>
-                      <li class="menu-item menu-item-mobile">
+            <div class="menu-tab">
+              <div class="user-tag active">Menu</div>
+              <div class="user-tag">Categories</div>
+            </div>
+          
+          <div class="content-tab">
+          
+            <div class="header-ct-center menu-moblie">
+          <div class="nav-wrap">
+            <nav class="main-nav mobile">
+              <ul id="menu-primary-menu" class="menu">
+                <li class="menu-item menu-item-has-children-mobile current-item">
+                  <a class="iteam-menu">Jobs</a>
+                  <ul class="sub-menu-mobile">
+                    <li class="menu-item menu-item-mobile current-item">
+                      <a href="#">Home Page 01 </a>
+                    </li>
+                    <li class="menu-item menu-item-mobile">
                         <a href="Home-02.html">Home Page 02 </a>
                       </li>
                       <li class="menu-item menu-item-mobile">
@@ -108,102 +58,102 @@
                       <li class="menu-item menu-item-mobile">
                         <a href="home-10.html">Home Page 10 </a>
                       </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item menu-item-has-children-mobile  current-item">
-                    <a class="iteam-menu">Find jobs </a>
-                    <ul class="sub-menu-mobile">
-                      <li class="menu-item menu-item-mobile">
-                        <a href="find-jobs-list.html">List Layout</a>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children-mobile">
+                  <a class="iteam-menu">Companies</a>
+                  <ul class="sub-menu-mobile">
+                    <li class="menu-item menu-item-mobile">
+                      <a href="#">List Layout</a>
+                    </li>
+                    <li class="menu-item menu-item-mobile">
+                      <a href="#">Grid Layout</a>                       
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="find-jobs-grid.html">Grid Layout</a>
+                        <a href="#">List Sidebar</a>
+                        
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="find-jobs-list-sidebar.html">List Sidebar</a>
-
-                      </li>
-                      <li class="menu-item menu-item-mobile current-item">
-                        <a href="find-jobs-grid-sidebar.html">Grid Sidebar</a>
-
+                        <a href="#">Grid Sidebar</a>
+                        
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="find-jobs-list-sidebar-fullwidth.html">List Sidebar FullWidth</a>
+                        <a href="#">List Sidebar FullWidth</a> 
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="find-jobs-grid-sidebar-fullwidth.html">Grid Sidebar FullWidth</a>
-
+                        <a href="#">Grid Sidebar FullWidth</a>
+                        
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="find-jobs-topmap.html">Top Map</a>
-
+                        
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="find-jobs-topmap-sidebar.html">Top Map Sidebar</a>
-
+                        
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="find-jobs-half-map.html">Half Map - V1</a>
-
+ 
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="find-jobs-half-map2.html">Half Map - V2</a>
-
+ 
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="jobs-single.html">Jobs Single - V1</a>
-
+                        <a href="#">Jobs Single - V1</a>
+                        
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="jobs-single2.html">Jobs Single - V2</a>
-
+                        
                       </li>
-                    </ul>
-                  </li>
-
-                  <li class="menu-item menu-item-has-children-mobile">
-                    <a class="iteam-menu">Employers</a>
-                    <ul class="sub-menu-mobile">
-                      <li class="menu-item">
-                        <a href="employers-list.html">List Layout</a>
-
-                      </li>
-                      <li class="menu-item">
-                        <a href="employers_grid.html">Grid Layout</a>
-
+                  </ul>
+                </li>
+  
+                <li class="menu-item menu-item-has-children-mobile">
+                  <a class="iteam-menu">Services</a>
+                  <ul class="sub-menu-mobile">
+                    <li class="menu-item">
+                      <a href="#">List Layout</a>
+                      
+                    </li>
+                    <li class="menu-item">
+                      <a href="#">Grid Layout</a>
+                        
                       </li>
                       <li class="menu-item">
                         <a href="employers-list-sidebar.html">List Sidebar</a>
-
+                        
                       </li>
                       <li class="menu-item">
                         <a href="employers-grid-sidebar.html">Grid Sidebar</a>
-
+                        
                       </li>
                       <li class="menu-item">
-                        <a href="employers-grid-fullwidth.html">Grid Fullwidth</a>
-
+                        <a href="employers-grid-fullwidth.html">Grid Full Width</a>
+                        
                       </li>
                       <li class="menu-item">
                         <a href="employers-topmap.html">Top Map</a>
-
+                        
                       </li>
                       <li class="menu-item">
                         <a href="employers-half-map.html">Half Map</a>
-
+                        
                       </li>
                       <li class="menu-item">
                         <a href="employers-single.html">Employers Single - V1</a>
 
                       </li>
                       <li class="menu-item">
-                        <a href="employers-single2.html">Employers Single - V2</a>
-
+                        <a href="employers-single2.html">Employers Single - V2</a> 
+                        
                       </li>
-
+                     
                       <li class="menu-item">
                         <a href="employers-review.html">Employers Reviews</a>
-
+                        
                       </li>
                       <li class="menu-item">
                         <a href="employers-not-pound.html">Employers Not Found</a>
@@ -211,21 +161,21 @@
                       <li class="menu-item">
                         <a href="dashboard/employer-dashboard.html">Employer Dashboard</a>
                       </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item menu-item-has-children-mobile">
-                    <a class="iteam-menu">Candidates</a>
-                    <ul class="sub-menu-mobile">
-                      <li class="menu-item menu-item-mobile">
-                        <a href="candidate.html">List Layout</a>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children-mobile">
+                  <a class="iteam-menu">Candidates</a>
+                  <ul class="sub-menu-mobile">
+                    <li class="menu-item menu-item-mobile">
+                      <a href="candidate.html">List Layout</a>
+
+                    </li>
+                    <li class="menu-item menu-item-mobile">
+                      <a href="candidate-grid.html">Grid Layout</a>
 
                       </li>
-                      <li class="menu-item menu-item-mobile">
-                        <a href="candidate-grid.html">Grid Layout</a>
-
-                      </li>
-                      <li class="menu-item menu-item-mobile">
-                        <a href="candidate-list-sidebar.html">List Sidebar</a>
+                    <li class="menu-item menu-item-mobile">
+                      <a href="candidate-list-sidebar.html">List Sidebar</a>
 
                       </li>
                       <li class="menu-item menu-item-mobile">
@@ -265,45 +215,45 @@
                         <a href="dashboard/candidates-dashboard.html">Candidates Dashboard</a>
 
                       </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item menu-item-has-children-mobile">
-                    <a class="iteam-menu">Blog</a>
-                    <ul class="sub-menu-mobile">
-                      <li class="menu-item menu-item-mobile">
-                        <a href="blog.html">Blog List </a>
-                      </li>
-                      <li class="menu-item menu-item-mobile">
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children-mobile">
+                  <a class="iteam-menu">Blog</a>
+                  <ul class="sub-menu-mobile">
+                    <li class="menu-item menu-item-mobile">
+                      <a href="blog.html">Blog List </a>
+                    </li>
+                    <li class="menu-item menu-item-mobile">
                         <a href="blog-grid.html">Blog Grid</a>
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="blog-masonry.html">Blog Masonry</a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="blog-detail.html">Blog Details- V1</a>
+                        <a href="blog-detail.html">Blog Detail</a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="blog-detail-01.html">Blog Details- V2</a>
+                        <a href="blog-detail-01.html">Blog Detail - V2</a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="blog-detail-side-bar.html">Blog Details Sidebar</a>
+                        <a href="#">Blog Detail Sidebar</a>
                       </li>
-                    </ul>
-                  </li>
-                  <li class="menu-item menu-item-has-children-mobile">
-                    <a class="iteam-menu">Pages</a>
-                    <ul class="sub-menu-mobile">
-                      <li class="menu-item menu-item-mobile">
-                        <a href="about-us.html">About Us</a>
-                      </li>
-                      <li class="menu-item menu-item-mobile">
-                        <a href="accordion-page.html">FAQS</a>
-                      </li>
-                      <li class="menu-item menu-item-mobile">
-                        <a href="term-of-use.html">Terms Of Use</a>
+                  </ul>
+                </li>
+                <li class="menu-item menu-item-has-children-mobile">
+                  <a class="iteam-menu">Pages</a>
+                  <ul class="sub-menu-mobile">
+                    <li class="menu-item menu-item-mobile">
+                      <a href="about-us.html">About Us</a>
+                    </li>
+                    <li class="menu-item menu-item-mobile">
+                        <a href="#">FAQS</a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="pricing.html">Pricing</a>
+                        <a href="#">Terms Of Use</a>
+                      </li>
+                      <li class="menu-item menu-item-mobile">
+                        <a href="#">Pricing</a>
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="shop.html">Shop List</a>
@@ -320,7 +270,7 @@
                       <li class="menu-item menu-item-mobile">
                         <a href="login.html">Login</a>
                       </li>
-                      <li class="menu-item menu-item-mobile">
+                       <li class="menu-item menu-item-mobile">
                         <a href="create-account.html">Create Account</a>
                       </li>
                       <li class="menu-item menu-item-mobile">
@@ -329,204 +279,204 @@
                       <li class="menu-item menu-item-mobile">
                         <a href="modal.html">Modal</a>
                       </li>
-                    </ul>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-
-          <div class="categories">
-            <div class="sub-categorie-mobile">
-              <ul class="pop-up">
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-1"></span>Design & Creative</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                        <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                        <li><a href="find-jobs-list.html">Development & IT</a></li>
-                        <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                        <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                        <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                        <li><a href="find-jobs-list.html">video & Animation</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                        <li><a href="jobs-single.html">adobe XD</a></li>
-                        <li><a href="jobs-single.html">Android Developer</a></li>
-                        <li><a href="jobs-single.html">Figma</a></li>
-                        <li><a href="jobs-single.html">CSS, Html</a></li>
-                        <li><a href="jobs-single.html">BA</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-8"></span>Digital Marketing</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                        <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                        <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                        <li><a href="find-jobs-list.html">Development & IT</a></li>
-                        <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">adobe XD</a></li>
-                        <li><a href="jobs-single.html">Figma</a></li>
-                        <li><a href="jobs-single.html">BA</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-2"></span>Development & IT</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                        <li><a href="find-jobs-list.html">Development & IT</a></li>
-                        <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                        <li><a href="find-jobs-list.html">video & Animation</a></li>
-                        <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">adobe XD</a></li>
-                        <li><a href="jobs-single.html">Android Developer</a></li>
-                        <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                        <li><a href="jobs-single.html">CSS, Html</a></li>
-                        <li><a href="jobs-single.html">BA</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-3"></span>Music & Audio</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                        <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                        <li><a href="find-jobs-list.html">video & Animation</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">Android Developer</a></li>
-                        <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                        <li><a href="jobs-single.html">adobe XD</a></li>
-                        <li><a href="jobs-single.html">Figma</a></li>
-                        <li><a href="jobs-single.html">BA</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-4"></span>Finance &
-                    Accounting</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Development & IT</a></li>
-                        <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                        <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                        <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                        <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                        <li><a href="find-jobs-list.html">video & Animation</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">adobe XD</a></li>
-                        <li><a href="jobs-single.html">Figma</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-5"></span>Programming & Tech</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                        <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                        <li><a href="find-jobs-list.html">Music & Audio</a></li>
-                        <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                        <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                        <li><a href="find-jobs-list.html">video & Animation</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                        <li><a href="jobs-single.html">adobe XD</a></li>
-                        <li><a href="jobs-single.html">Figma</a></li>
-                        <li><a href="jobs-single.html">CSS, Html</a></li>
-                        <li><a href="jobs-single.html">BA</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-6"></span>Video & Animation</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Design & Creative</a></li>
-                        <li><a href="find-jobs-list.html">Digital marketing</a></li>
-                        <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                        <li><a href="find-jobs-list.html">video & Animation</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">Adobe Photoshop</a></li>
-                        <li><a href="jobs-single.html">CSS, Html</a></li>
-                        <li><a href="jobs-single.html">BA</a></li>
-                      </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="categories-mobile">
-                  <a href="#"><span class="icon-categorie-7"></span>Writing &
-                    translation</a>
-                  <div class="group-menu-category-mobile">
-                    <div class="menu left">
-                      <ul>
-                        <li><a href="find-jobs-list.html">Finance & Accounting</a></li>
-                        <li><a href="find-jobs-list.html">Programming & Tech</a></li>
-                        <li><a href="find-jobs-list.html">video & Animation</a></li>
-                      </ul>
-                    </div>
-                    <div class="menu right">
-                      <ul>
-                        <li><a href="jobs-single.html">Figma</a></li>
-                        <li><a href="jobs-single.html">CSS, Html</a></li>
-                        <li><a href="jobs-single.html">BA</a></li>
-                      </ul>
-                    </div>
-                  </div>
+                  </ul>
                 </li>
               </ul>
+            </nav>
+          </div>  
             </div>
-
+         
+            <div class="categories">
+              <div class="sub-categorie-mobile">
+                <ul class="pop-up">
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-1"></span>Design & Creative</a>
+                    <div class="group-menu-category-mobile">
+                      <div class="menu left">
+                        <ul>
+                          <li><a href="#">Design & Creative</a></li>
+                          <li><a href="#">Digital marketing</a></li>
+                          <li><a href="#">Development & IT</a></li>
+                          <li><a href="#">Music & Audio</a></li>
+                          <li><a href="#">Finance & Accounting</a></li>
+                          <li><a href="#">Programming & Tech</a></li>
+                          <li><a href="#">video & Animation</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu right">
+                        <ul>
+                          <li><a href="#">Adobe Photoshop</a></li>
+                          <li><a href="#">adobe XD</a></li>
+                          <li><a href="#">Android Developer</a></li>
+                          <li><a href="#">Figma</a></li>
+                          <li><a href="#">CSS, Html</a></li>
+                          <li><a href="#">BA</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-8"></span>Digital Marketing</a>
+                    <div class="group-menu-category-mobile">
+                      <div class="menu left">
+                        <ul>
+                          <li><a href="#">Digital marketing</a></li>
+                          <li><a href="#">Design & Creative</a></li>
+                          <li><a href="#">Finance & Accounting</a></li>
+                          <li><a href="#">Development & IT</a></li>
+                          <li><a href="#">Programming & Tech</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu right">
+                        <ul>
+                          <li><a href="#">adobe XD</a></li>
+                          <li><a href="#">Figma</a></li>
+                          <li><a href="#">BA</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-2"></span>Development & IT</a>
+                    <div class="group-menu-category-mobile">
+                      <div class="menu left">
+                        <ul>
+                          <li><a href="#">Design & Creative</a></li>
+                          <li><a href="#">Development & IT</a></li>
+                          <li><a href="#">Music & Audio</a></li>
+                          <li><a href="#">video & Animation</a></li>
+                          <li><a href="#">Finance & Accounting</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu right">
+                        <ul>
+                          <li><a href="#">adobe XD</a></li>
+                          <li><a href="#">Android Developer</a></li>
+                          <li><a href="#">Adobe Photoshop</a></li>
+                          <li><a href="#">CSS, Html</a></li>
+                          <li><a href="#">BA</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-3"></span>Music & Audio</a>
+                    <div class="group-menu-category-mobile">
+                      <div class="menu left">
+                        <ul>
+                          <li><a href="#">Digital marketing</a></li>
+                          <li><a href="#">Design & Creative</a></li>
+                          <li><a href="#">video & Animation</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu right">
+                        <ul>
+                          <li><a href="#">Android Developer</a></li>
+                          <li><a href="#">Adobe Photoshop</a></li>
+                          <li><a href="#">adobe XD</a></li>
+                          <li><a href="#">Figma</a></li>
+                          <li><a href="#">BA</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-4"></span>Finance &
+                      Accounting</a>
+                      <div class="group-menu-category-mobile">
+                        <div class="menu left">
+                          <ul>
+                            <li><a href="#">Development & IT</a></li>
+                            <li><a href="#">Design & Creative</a></li>
+                            <li><a href="#">Programming & Tech</a></li>
+                            <li><a href="#">Music & Audio</a></li>
+                            <li><a href="#">Finance & Accounting</a></li>
+                            <li><a href="#">video & Animation</a></li>
+                          </ul>
+                        </div>
+                        <div class="menu right">
+                          <ul>
+                            <li><a href="#">adobe XD</a></li>
+                            <li><a href="#">Figma</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                  </li>
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-5"></span>Programming & Tech</a>
+                    <div class="group-menu-category-mobile">
+                      <div class="menu left">
+                        <ul>
+                          <li><a href="#">Design & Creative</a></li>
+                          <li><a href="#">Digital marketing</a></li>
+                          <li><a href="#">Music & Audio</a></li>
+                          <li><a href="#">Finance & Accounting</a></li>
+                          <li><a href="#">Programming & Tech</a></li>
+                          <li><a href="#">video & Animation</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu right">
+                        <ul>
+                          <li><a href="#">Adobe Photoshop</a></li>
+                          <li><a href="#">adobe XD</a></li>
+                          <li><a href="#">Figma</a></li>
+                          <li><a href="#">CSS, Html</a></li>
+                          <li><a href="#">BA</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-6"></span>Video & Animation</a>
+                    <div class="group-menu-category-mobile">
+                      <div class="menu left">
+                        <ul>
+                          <li><a href="#">Design & Creative</a></li>
+                          <li><a href="#">Digital marketing</a></li>
+                          <li><a href="#">Programming & Tech</a></li>
+                          <li><a href="#">video & Animation</a></li>
+                        </ul>
+                      </div>
+                      <div class="menu right">
+                        <ul>
+                          <li><a href="#">Adobe Photoshop</a></li>
+                          <li><a href="#">CSS, Html</a></li>
+                          <li><a href="#">BA</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="categories-mobile">
+                    <a href="#"><span class="icon-categorie-7"></span>Writing &
+                      translation</a>
+                      <div class="group-menu-category-mobile">
+                        <div class="menu left">
+                          <ul>
+                            <li><a href="#">Finance & Accounting</a></li>
+                            <li><a href="#">Programming & Tech</a></li>
+                            <li><a href="#">video & Animation</a></li>
+                          </ul>
+                        </div>
+                        <div class="menu right">
+                          <ul>
+                            <li><a href="#">Figma</a></li>
+                            <li><a href="#">CSS, Html</a></li>
+                            <li><a href="#">BA</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                  </li>
+                </ul>
+              </div>
+              
+            </div>
+            
+  
           </div>
-
-
-        </div>
-
+        
       </div>
-
-
+ 
+        
 
       <div class="header-customize-item button">
         <a href="dashboard/candidates-resumes.html">Upload Resume</a>
@@ -535,33 +485,32 @@
       <div class="mobile-footer">
         <div class="icon-infor d-flex aln-center">
           <div class="icon">
-            <span class="icon-call-calling"><span class="path1"></span><span class="path2"></span><span
-                class="path3"></span><span class="path4"></span></span>
+              <span class="icon-call-calling"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
           </div>
           <div class="content">
-            <p>Need help? 24/7</p>
-            <h6><a href="tel:0123456678">001-1234-88888</a></h6>
+              <p>Need help? 24/7</p>
+              <h6><a href="tel:0123456678">001-1234-88888</a></h6>
           </div>
-        </div>
+      </div>
         <div class="wd-social d-flex aln-center">
           <ul class="list-social d-flex aln-center">
-            <li><a href="#"><i class="icon-facebook"></i></a></li>
-            <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-            <li><a href="#"><i class="icon-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-pinterest"></i></a></li>
-            <li><a href="#"><i class="icon-instagram1"></i></a></li>
-            <li><a href="#"><i class="icon-youtube"></i></a></li>
+              <li><a href="#"><i class="icon-facebook"></i></a></li>
+              <li><a href="#"><i class="icon-linkedin2"></i></a></li>
+              <li><a href="#"><i class="icon-twitter"></i></a></li>
+              <li><a href="#"><i class="icon-pinterest"></i></a></li>
+              <li><a href="#"><i class="icon-instagram1"></i></a></li>
+              <li><a href="#"><i class="icon-youtube"></i></a></li>
           </ul>
-        </div>
+      </div>
       </div>
     </div>
-
+    
   </div>
-  <!-- /end -->
+
   <!-- Boxed -->
-  <div class="boxed">
-    <!-- HEADER -->
-  <header id="header" class="header header-default  header-fixed">
+  <div class="boxed"> 
+  <!-- HEADER -->
+  <header id="header" class="header header-default style-absolute header-fixed">
     <div class="tf-container ct2">
       <div class="row">
         <div class="col-md-12">
@@ -788,19 +737,19 @@
                                 </a>
                               </li>
                               <li class="menu-item ">
-                                <a href="fresher-Jobs.html">Fresher Jobs </a>
+                                <a href="Home-02.html">Fresher Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="job-list.html">MNC Jobs </a>
+                                <a href="home-03.html">MNC Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="job-list.html">Remote Jobs </a>
+                                <a href="home-04.html">Remote Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="work-from-home-jobs.html">Work From Home Jobs </a>
+                                <a href="home-05.html">Work From Home Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="job-list.html">Walk in Jobs </a>
+                                <a href="home-05.html">Walk in Jobs </a>
                               </li>
                             </ul>
                             <ul class="sub-menu-bar">
@@ -812,7 +761,7 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Jobs in Delhi </a>
+                                <a href="home-07.html">Jobs in Delhi </a>
                               </li>
                               <li class="menu-item">
                                 <a href="home-08.html">Jobs in Mumbai </a>
@@ -836,7 +785,7 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Jobs by Category </a>
+                                <a href="home-07.html">Jobs by Category </a>
                               </li>
                               <li class="menu-item">
                                 <a href="home-08.html">Jobs by Skills </a>
@@ -863,19 +812,19 @@
                                 </a>
                               </li>
                               <li class="menu-item ">
-                                <a href="#">Technology </a>
+                                <a href="Home-02.html">Technology </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Healthcare </a>
+                                <a href="home-03.html">Healthcare </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Finance </a>
+                                <a href="home-04.html">Finance </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Education </a>
+                                <a href="home-05.html">Education </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">View More </a>
+                                <a href="home-05.html">View More </a>
                               </li>
                             </ul>
                             <ul class="sub-menu-bar">
@@ -887,7 +836,7 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Top Companies </a>
+                                <a href="home-07.html">Top Companies </a>
                               </li>
                               <li class="menu-item">
                                 <a href="home-08.html">Browse All Companies </a>
@@ -911,7 +860,7 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Banglore </a>
+                                <a href="home-07.html">Banglore </a>
                               </li>
                               <li class="menu-item">
                                 <a href="home-08.html">Pune </a>
@@ -1121,7 +1070,7 @@
             </div>
             <div class="header-ct-right">
               <div class="header-customize-item help">
-                <a href="login.html" class="login-register"><span class="icon-profile" style="margin-right: 4px;font-size: 22px;margin-top: 4px;"></span> Recruiter Login</a>
+                <a href="" class="login-register"><span class="icon-profile" style="margin-right: 4px;font-size: 22px;margin-top: 4px;"></span> Recruiter Login</a>
               </div>
               <!--<div class="header-customize-item bell">
                 <span class="icon-bell"></span>
@@ -1232,282 +1181,3 @@
       </div>
     </div>
   </header>
-    <!-- END HEADER -->
-
-  <section class="account-section">
-
-    <div class="tf-container">
-      <div class="row">
-	  
-	  <div class="authfy-container row">
-          <div class="col-sm-5 authfy-panel-left">
-            <div class="brand-col">
-              <div class="headline">
-                <!-- brand-logo start -->
-                <div class="brand-logo">
-				
-                  <img src="images/logo-white.png" width="200" alt="brand-logo">
-                </div><!-- ./brand-logo -->
-                <p>Login using social media to get quick access</p>
-                <!-- social login buttons start -->
-                <div class="row social-buttons">
-                  <div class="col-xs-4 col-sm-4 col-md-12">
-                    <a href="#" class="btn btn-block btn-facebook">
-                      <i class="icon-facebook"></i> <span class="hidden-xs hidden-sm">Signin with facebook</span>
-                    </a>
-                  </div>
-                  <div class="col-xs-4 col-sm-4 col-md-12">
-                    <a href="#" class="btn btn-block btn-twitter">
-                      <i class="icon-twitter"></i> <span class="hidden-xs hidden-sm">Signin with twitter</span>
-                    </a>
-                  </div>
-                  <div class="col-xs-4 col-sm-4 col-md-12">
-                    <a href="#" class="btn btn-block btn-google">
-                      <i class="fa fa-google"></i> <span class="hidden-xs hidden-sm">Signin with google</span>
-                    </a>
-                  </div>
-                </div><!-- ./social-buttons -->
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-7 authfy-panel-right">
-            <!-- authfy-login start -->
-            <div class="authfy-login">
-              <!-- panel-login start -->
-              <div class="authfy-panel panel-login text-center active">
-                <div class="authfy-heading">
-                  <h3 class="auth-title">Sign up for free!</h3>
-                
-                </div>
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <form name="loginForm" class="loginForm" action="#" method="POST">
-                      <div class="form-group">
-                        <input type="email" class="form-control email" name="username" placeholder="Username or email address">
-                      </div>
-                      <div class="form-group">
-                        <div class="pwdMask">
-                          <input type="password" class="form-control password" name="password" placeholder="Password">
-                          <span class="fa fa-eye-slash pwd-toggle"></span>
-                        </div>
-                      </div>
-					  <div class="form-group">
-                        <div class="pwdMask">
-                          <input type="password" class="form-control password" name="password" placeholder="Confirm Password">
-                          <span class="fa fa-eye-slash pwd-toggle"></span>
-                        </div>
-                      </div>
-                      <!-- start remember-row -->
-                      <div class="row remember-row">
-                        <div class="col-xs-12 col-sm-12">
-                          <label class="checkbox text-left">
-                            <input type="checkbox" value="remember-me">
-                            <span class="label-text">I agree to the <a href=""> privacy policy</a> and <a href="">terms of service</a>.</span>
-                          </label>
-                        </div>
-                        
-                      </div> <!-- ./remember-row -->
-                      <div class="form-group">
-                        <button class="btn btn-lg btn-block" type="submit">Sign up</button>
-                      </div>
-                    </form>
-					<p style="margin-top: 10px;font-size: 16px;"><a class="lnk-toggler" data-panel=".panel-login" href="login.html">Already have an account?</a></p>
-                  </div>
-                </div>
-              </div> <!-- ./panel-login -->
-              <!-- panel-signup start -->
-              <!--<div class="authfy-panel panel-signup text-center">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12">
-                    <div class="authfy-heading">
-                      <h3 class="auth-title">Sign up for free!</h3>
-                    </div>
-                    <form name="signupForm" class="signupForm" action="#" method="POST">
-                      <div class="form-group">
-                        <input type="email" class="form-control" name="username" placeholder="Email address">
-                      </div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" name="fullname" placeholder="Full name">
-                      </div>
-                      <div class="form-group">
-                        <div class="pwdMask">
-                          <input type="password" class="form-control" name="password" placeholder="Password">
-                          <span class="fa fa-eye-slash pwd-toggle"></span>
-                        </div>
-                      </div>
-                      <div class="form-group">
-                        <p class="term-policy text-muted small">I agree to the <a href="#">privacy policy</a> and <a href="#">terms of service</a>.</p>
-                      </div>
-                      <div class="form-group">
-                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up with email</button>
-                      </div>
-                    </form>
-                    <a class="lnk-toggler" data-panel=".panel-login" href="#">Already have an account?</a>
-                  </div>
-                </div>
-              </div>--> <!-- ./panel-signup -->
-             
-            </div> <!-- ./authfy-login -->
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </section>
-
-
-     <footer class="footer">
-    <div class="top-footer">
-        <div class="tf-container">
-            <div class="row">
-                <div class="col-lg-2 col-md-4">
-                    <div class="footer-logo">
-                        <img src="images/logo.png" alt="images">
-                    </div>
-                </div>
-                <div class="col-lg-10 col-md-8">
-                    <div class="wd-social d-flex aln-center">
-                        <span>Follow Us:</span>
-                        <ul class="list-social d-flex aln-center">
-                            <li><a href="#"><i class="icon-facebook"></i></a></li>
-                            <li><a href="#"><i class="icon-linkedin2"></i></a></li>
-                            <li><a href="#"><i class="icon-twitter"></i></a></li>
-                            <li><a href="#"><i class="icon-pinterest"></i></a></li>
-                            <li><a href="#"><i class="icon-instagram1"></i></a></li>
-                            <li><a href="#"><i class="icon-youtube"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="inner-footer">
-        <div class="tf-container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-cl-1">
-                        <div class="icon-infor d-flex aln-center">
-                            <div class="icon">
-                                <span class="icon-call-calling"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span></span>
-                            </div>
-                            <div class="content">
-                                <p>Need help? 24/7</p>
-                                <h6><a href="tel:0123456678">001-1234-88888</a></h6>
-                            </div>
-                        </div>
-                        <p>Job Searching Just Got Easy. Use JobSala to run a hiring site and earn money in the process!</p>
-                        <div class="ft-icon"> <i class="icon-map-pin"></i> 101 E/129th Sector 19 , Noida, India</div>
-                        <form action="#" id="subscribe-form">
-                            <input type="email" placeholder="Your email address" required="" id="subscribe-email">
-                            <button class="tf-button" type="submit" id="subscribe-button"><i class="icon-paper-plane-o"></i></button>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 col-6">
-                    <div class="footer-cl-2">
-                        <h6 class="ft-title">
-                            Quick Links
-                        </h6>
-                        <ul class="navigation-menu-footer">
-                            <li> <a href="#">Job Packages</a> </li>
-                            <li> <a href="#">Post New Job</a> </li>
-                            <li> <a href="#">Jobs Listing</a> </li>
-                            <li> <a href="#">Jobs Style Grid</a> </li>
-                            <li> <a href="#">Employer Listing</a> </li>
-                            <li> <a href="employers-grid-fullwidth.html">Employers Grid</a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="footer-cl-3">
-                        <h6 class="ft-title">
-                            For Candidates
-                        </h6>
-                        <ul class="navigation-menu-footer">
-                            <li> <a href="#html">User Dashboard</a> </li>
-                            <li> <a href="3">CV Packages</a> </li>
-                            <li> <a href="#">Candidate Listing</a> </li>
-                            <li> <a href="#l">Candidates Grid</a> </li>
-                            <li> <a href="#">About us</a> </li>
-                            <li> <a href="#">Contact us </a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="footer-cl-4">
-                        <h6 class="ft-title">
-                            For Employers
-                        </h6>
-                        <ul class="navigation-menu-footer">
-                            <li> <a href="#">Post New Job</a> </li>
-                            <li> <a href="#">Employer Listing</a> </li>
-                            <li> <a href="#">Employers Grid</a> </li>
-                            <li> <a href="#">Job Packages</a> </li>
-                            <li> <a href="#">Jobs Listing</a> </li>
-                            <li> <a href="#">Jobs Style Grid</a> </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4 col-6">
-                    <div class="footer-cl-5">
-                        <h6 class="ft-title">
-                            Download App
-                        </h6>
-                        <ul class="ft-download">
-                            <li> <a href="#"><img src="images/review/btn3.png" alt="images"></a></li>
-                            <li> <a href="#"><img src="images/review/btn4.png" alt="images"></a></li>
-                        </ul>
-                       
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="bottom">
-        <div class="tf-container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6">
-                    <div class="bt-left">
-                        <div class="copyright">©2023 JobSala. All Rights Reserved.</div>
-                          <span class="select-language">
-                            <select class="image-select">
-                                <option data-thumbnail="images/review/flag.png">English</option>
-                                <option data-thumbnail="images/review/flag3.png">USA</option>
-                                <option data-thumbnail="images/review/flag2.png">VN</option>
-                            </select>
-                        </span>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <ul class="menu-bottom d-flex aln-center">
-                        <li><a href="#">Terms Of Services</a> </li>
-                        <li><a href="#">Privacy Policy</a> </li>
-                        <li><a href="contact-us.html">Cookie Policy</a> </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-  </footer>
-
-  </div><!-- /.boxed -->
-
-  <script src="javascript/jquery.min.js"></script>
-  <script src="javascript/bootstrap.min.js"></script>
-  <script src="javascript/boostrap-select.min.js"></script>
-  <script src="javascript/jquery.fancybox.js"></script>
-  <script src="javascript/plugin.min.js"></script>
-  <script src='javascript/wow.min.js'></script>
-  <script src='javascript/swiper.js'></script>
-  <script src='javascript/jquery.nice-select.min.js'></script>
-  <script src="javascript/jquery.cookie.js"></script>
-  <script src="javascript/switcher1.js"></script>
-
-  <script src="javascript/main.js"></script>
-  <script src="javascript/jquery-ui.min.js"></script>
-
-</body>
-
-
-</html>

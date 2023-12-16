@@ -302,22 +302,22 @@
                       <a href="#">Home Page 01 </a>
                     </li>
                     <li class="menu-item menu-item-mobile">
-                        <a href="#">Home Page 02 </a>
+                        <a href="Home-02.html">Home Page 02 </a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="#">Home Page 03 </a>
+                        <a href="home-03.html">Home Page 03 </a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="#">Home Page 04 </a>
+                        <a href="home-04.html">Home Page 04 </a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="#">Home Page 05 </a>
+                        <a href="home-05.html">Home Page 05 </a>
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="home-06.html">Home Page 06 </a>
                       </li>
                       <li class="menu-item menu-item-mobile">
-                        <a href="#">Home Page 07 </a>
+                        <a href="home-07.html">Home Page 07 </a>
                       </li>
                       <li class="menu-item menu-item-mobile">
                         <a href="home-08.html">Home Page 08 </a>
@@ -1007,19 +1007,19 @@
                                 </a>
                               </li>
                               <li class="menu-item ">
-                                <a href="fresher-Jobs.html">Fresher Jobs </a>
+                                <a href="Home-02.html">Fresher Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="job-list.html">MNC Jobs </a>
+                                <a href="home-03.html">MNC Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="job-list.html">Remote Jobs </a>
+                                <a href="home-04.html">Remote Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="work-from-home-jobs.html">Work From Home Jobs </a>
+                                <a href="home-05.html">Work From Home Jobs </a>
                               </li>
                               <li class="menu-item">
-                                <a href="job-list.html">Walk in Jobs </a>
+                                <a href="home-05.html">Walk in Jobs </a>
                               </li>
                             </ul>
                             <ul class="sub-menu-bar">
@@ -1031,7 +1031,7 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Jobs in Delhi </a>
+                                <a href="home-07.html">Jobs in Delhi </a>
                               </li>
                               <li class="menu-item">
                                 <a href="home-08.html">Jobs in Mumbai </a>
@@ -1055,7 +1055,7 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Jobs by Category </a>
+                                <a href="home-07.html">Jobs by Category </a>
                               </li>
                               <li class="menu-item">
                                 <a href="home-08.html">Jobs by Skills </a>
@@ -1082,19 +1082,19 @@
                                 </a>
                               </li>
                               <li class="menu-item ">
-                                <a href="#">Technology </a>
+                                <a href="Home-02.html">Technology </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Healthcare </a>
+                                <a href="home-03.html">Healthcare </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Finance </a>
+                                <a href="home-04.html">Finance </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Education </a>
+                                <a href="home-05.html">Education </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">View More </a>
+                                <a href="home-05.html">View More </a>
                               </li>
                             </ul>
                             <ul class="sub-menu-bar">
@@ -1106,19 +1106,19 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="companies.html">Top Companies </a>
+                                <a href="home-07.html">Top Companies </a>
                               </li>
                               <li class="menu-item">
-                                <a href="companies.html">Browse All Companies </a>
+                                <a href="home-08.html">Browse All Companies </a>
                               </li>
                               <li class="menu-item">
-                                <a href="companies.html">Featured Companies </a>
+                                <a href="home-09.html">Featured Companies </a>
                               </li>
                               <li class="menu-item">
-                                <a href="companies.html">IT Companies</a>
+                                <a href="home-10.html">IT Companies</a>
                               </li>
                               <li class="menu-item">
-                                <a href="companies.html">Startup Companies</a>
+                                <a href="home-10.html">Startup Companies</a>
                               </li>
                             </ul>
                             <ul class="sub-menu-bar">
@@ -1130,7 +1130,7 @@
                                 </a>
                               </li>
                               <li class="menu-item">
-                                <a href="#">Banglore </a>
+                                <a href="home-07.html">Banglore </a>
                               </li>
                               <li class="menu-item">
                                 <a href="home-08.html">Pune </a>
@@ -1340,7 +1340,7 @@
             </div>
             <div class="header-ct-right">
               <div class="header-customize-item help">
-                <a href="login.html" class="login-register"><span class="icon-profile" style="margin-right: 4px;font-size: 22px;margin-top: 4px;"></span> Recruiter Login</a>
+                <a href="" class="login-register"><span class="icon-profile" style="margin-right: 4px;font-size: 22px;margin-top: 4px;"></span> Recruiter Login</a>
               </div>
               <!--<div class="header-customize-item bell">
                 <span class="icon-bell"></span>
@@ -3489,10 +3489,10 @@ perfect for You</h2>
                             For Candidates
                         </h6>
                         <ul class="navigation-menu-footer">
-                            <li> <a href="#html">User Dashboard</a> </li>
-                            <li> <a href="3">CV Packages</a> </li>
-                            <li> <a href="#">Candidate Listing</a> </li>
-                            <li> <a href="#l">Candidates Grid</a> </li>
+                            <li> <a href="dashboard.html">User Dashboard</a> </li>
+                            <li> <a href="sample-cv.html">CV Packages</a> </li>
+                            <li> <a href="candidate-list-sidebar.html">Candidate Listing</a> </li>
+                            <li> <a href="candidate-grid.html">Candidates Grid</a> </li>
                             <li> <a href="about-us.html">About us</a> </li>
                             <li> <a href="contact-us.html">Contact us </a> </li>
                         </ul>
@@ -3506,7 +3506,7 @@ perfect for You</h2>
                         <ul class="navigation-menu-footer">
                             <li> <a href="#">Post New Job</a> </li>
                             <li> <a href="#">Employer Listing</a> </li>
-                            <li> <a href="#">Employers Grid</a> </li>
+                            <li> <a href="employers-grid-sidebar.html">Employers Grid</a> </li>
                             <li> <a href="#">Job Packages</a> </li>
                             <li> <a href="#">Jobs Listing</a> </li>
                             <li> <a href="#">Jobs Style Grid</a> </li>

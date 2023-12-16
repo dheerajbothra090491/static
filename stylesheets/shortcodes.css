@@ -145,14 +145,14 @@
 
 .widget-blog-1 .sub-title {
   display: inline-block;
-  padding: 4px 16px;
-  background: rgba(20, 129, 96, 0.1);
-  border-radius: 40px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  color: #14a077;
-  margin-bottom: 8px;
+    padding: 4px 16px;
+    background: rgb(0 139 210 / 12%);
+    border-radius: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #008bd2;
+    margin-bottom: 8px;
 }
 
 .widget-blog-1 .main-title {
@@ -371,7 +371,7 @@
 .main-heading {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 700;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 44px;
   color: #121212;
   margin-bottom: 8px;
@@ -3535,10 +3535,10 @@
   font-size: 16px;
   line-height: 26px;
   padding: 11px 32px;
-  background: #14a077;
+  background: #008bd2;
   border-radius: 4px;
   color: #fff;
-  border: 1px solid #14a077;
+  border: 1px solid #008bd2;
   text-transform: capitalize;
 }
 
@@ -3808,7 +3808,7 @@
 
 .pagination-job li.current a,
 .pagination-job li a:hover {
-  background: #14a077;
+  background: #008bd2;
   color: #fff;
 }
 
@@ -7974,7 +7974,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .group-form .ui-slider-range {
-  background: #14a077;
+  background: #008bd2;
 }
 
 .group-form .ui-slider-handle {
@@ -7983,7 +7983,7 @@ input[type="number"]::-webkit-inner-spin-button {
   height: 24px;
   width: 24px;
   border-radius: 50%;
-  border: 2px solid #14a077;
+  border: 2px solid #008bd2;
   background: #ffffff;
   box-sizing: border-box;
   cursor: pointer;
@@ -7995,7 +7995,7 @@ input[type="number"]::-webkit-inner-spin-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 26px;
-  color: #14a077;
+  color: #008bd2;
 }
 
 .filter-block .range-input {
@@ -8630,7 +8630,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .employer-block.style-2 .inner-box .button-readmore button,
 .employer-block.style-3 .inner-box button {
-  border: 1px solid #14a077;
+  border: 1px solid #008bd2;
   border-radius: 4px;
   padding: 8px 20px;
   line-height: 24px;
@@ -8642,7 +8642,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .employer-block.style-2 .inner-box .button-readmore button:hover,
 .employer-block.style-3 .inner-box button:hover {
-  background-color: #14a077;
+  background-color: #008bd2;
   border: 1px solid #ffffff;
   transition: all 300ms ease;
   color: #ffffff;
@@ -9242,7 +9242,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .tf-btn-submit {
   text-transform: capitalize;
-  background-color: #14a077;
+  background-color: #008bd2;
   color: #ffffff;
   padding: 8px 20px;
   display: inline-flex;

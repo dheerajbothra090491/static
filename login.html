@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<style>
 
+</style>
 <head>
 
   <title>JobzShala</title>
@@ -17,6 +19,7 @@
   
   <!-- swiper slider -->
   <link rel="stylesheet" href="stylesheets/swiper-bundle.min.css" />
+  
 
   <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -24,6 +27,14 @@
   <!-- Theme Style -->
   <link rel="stylesheet" type="text/css" href="stylesheets/shortcodes.css" />
   <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+   
+   
+   
+   
+  
   <!-- Colors -->
   <link rel="stylesheet" type="text/css" href="stylesheets/colors/color1.css" id="colors">
   
@@ -1233,7 +1244,7 @@
   </header>
     <!-- END HEADER -->
 
-    <section class="bg-f5 breadcrumb-section">
+   <!-- <section class="bg-f5 breadcrumb-section">
       <div class="tf-container">
         <div class="row">
           <div class="col-lg-12">
@@ -1248,17 +1259,124 @@
           </div>
         </div>
       </div>
-    </section>
+    </section>-->
 <section class="account-section">
+
     <div class="tf-container">
       <div class="row">
-        <div class="wd-form-login">
+	  
+	  <div class="authfy-container row">
+          <div class="col-sm-5 authfy-panel-left">
+            <div class="brand-col">
+              <div class="headline">
+                <!-- brand-logo start -->
+                <div class="brand-logo">
+				
+                  <img src="images/logo-white.png" width="200" alt="brand-logo">
+                </div><!-- ./brand-logo -->
+                <p>Login using social media to get quick access</p>
+                <!-- social login buttons start -->
+                <div class="row social-buttons">
+                  <div class="col-xs-4 col-sm-4 col-md-12">
+                    <a href="#" class="btn btn-block btn-facebook">
+                      <i class="icon-facebook"></i> <span class="hidden-xs hidden-sm">Signin with facebook</span>
+                    </a>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-12">
+                    <a href="#" class="btn btn-block btn-twitter">
+                      <i class="icon-twitter"></i> <span class="hidden-xs hidden-sm">Signin with twitter</span>
+                    </a>
+                  </div>
+                  <div class="col-xs-4 col-sm-4 col-md-12">
+                    <a href="#" class="btn btn-block btn-google">
+                      <i class="fa fa-google"></i> <span class="hidden-xs hidden-sm">Signin with google</span>
+                    </a>
+                  </div>
+                </div><!-- ./social-buttons -->
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-7 authfy-panel-right">
+            <!-- authfy-login start -->
+            <div class="authfy-login">
+              <!-- panel-login start -->
+              <div class="authfy-panel panel-login text-center active">
+                <div class="authfy-heading">
+                  <h3 class="auth-title">Login to your account</h3>
+                  <p>Don’t have an account? <a class="lnk-toggler" data-panel=".panel-signup" href="register.html">Sign Up Free!</a></p>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <form name="loginForm" class="loginForm" action="#" method="POST">
+                      <div class="form-group">
+                        <input type="email" class="form-control email" name="username" placeholder="Email address">
+                      </div>
+                      <div class="form-group">
+                        <div class="pwdMask">
+                          <input type="password" class="form-control password" name="password" placeholder="Password">
+                          <span class="fa fa-eye-slash pwd-toggle"></span>
+                        </div>
+                      </div>
+                      <!-- start remember-row -->
+                      <div class="row remember-row">
+                        <div class="col-xs-6 col-sm-6">
+                          <label class="checkbox text-left">
+                            <input type="checkbox" value="remember-me">
+                            <span class="label-text">Remember me</span>
+                          </label>
+                        </div>
+                        <div class="col-xs-6 col-sm-6">
+                          <p class="forgotPwd">
+                            <a class="lnk-toggler" data-panel=".panel-forgot" href="forgot-password.html">Forgot password?</a>
+                          </p>
+                        </div>
+                      </div> <!-- ./remember-row -->
+                      <div class="form-group">
+                        <button class="btn btn-lg btn-block" type="submit">Login</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div> <!-- ./panel-login -->
+              <!-- panel-signup start -->
+              <!--<div class="authfy-panel panel-signup text-center">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="authfy-heading">
+                      <h3 class="auth-title">Sign up for free!</h3>
+                    </div>
+                    <form name="signupForm" class="signupForm" action="#" method="POST">
+                      <div class="form-group">
+                        <input type="email" class="form-control" name="username" placeholder="Email address">
+                      </div>
+                      <div class="form-group">
+                        <input type="text" class="form-control" name="fullname" placeholder="Full name">
+                      </div>
+                      <div class="form-group">
+                        <div class="pwdMask">
+                          <input type="password" class="form-control" name="password" placeholder="Password">
+                          <span class="fa fa-eye-slash pwd-toggle"></span>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <p class="term-policy text-muted small">I agree to the <a href="#">privacy policy</a> and <a href="#">terms of service</a>.</p>
+                      </div>
+                      <div class="form-group">
+                        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up with email</button>
+                      </div>
+                    </form>
+                    <a class="lnk-toggler" data-panel=".panel-login" href="#">Already have an account?</a>
+                  </div>
+                </div>
+              </div>--> <!-- ./panel-signup -->
+             
+            </div> <!-- ./authfy-login -->
+          </div>
+        </div>
+        <!--<div class="wd-form-login">
           <h4>Log In</h4>
-          <!--<div class="nofi-form">
-            <p>Username: <span>candidate</span> or <span>employer</span> </p>
-            <p>Password: <span>jobtex</span></p>
-          </div>-->
-          <form action="">
+          
+          <form action="https://themesflat.co/html/jobtex/home-01.html">
             <div class="ip">
               <label>Email ID / Username<span>*</span></label>
               <input type="text" value="" placeholder="Name">
@@ -1282,7 +1400,7 @@
             <button type="submit">Login</button>
             <div class="sign-up">Not registered yet? <a href="register.html">Sign Up</a></div>
           </form>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
